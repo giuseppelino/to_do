@@ -1,32 +1,27 @@
 function App () {
   const [todos, setTodos] =  React.useState([
     {
-      text: 'Send invites',
+      text: 'Finish MIT assigments by Thursday',
       isCompleted:false,
     },
       
     {
-      text: 'Pickup dress',
+      text: 'Learn something new',
       isCompleted:false,
     },
     
     {
-      text: 'Shop for decorations',
+      text: 'Exercise',
       isCompleted:false,
     },
 
     {
-      text: 'Order food',
+      text: 'Go for a walk',
       isCompleted:false,
       
     },
 
-    {
-      text: 'Finalize on flowers',
-      isCompleted:false,
-
-    },
-
+    
   ]);
  
  const addTodo= text =>{
