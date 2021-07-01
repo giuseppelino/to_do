@@ -1,6 +1,6 @@
 #TODOLIST APPLICATION USING REACTJS
 
-# Overview: This is a simple create, edit and delete project using reactjs function components, hooks, and bootstrap. The app is styled with CSS and Bootstrap. The hover and  opacity effects are incorporated. In addition, each list updates with color coordination showing different color per row. 
+Overview: This is a simple create, edit and delete project using reactjs function components, hooks, and bootstrap. The app is styled with CSS and Bootstrap. The hover and  opacity effects are incorporated. In addition, each list updates with color coordination showing different color per row. 
 
 License:
 
