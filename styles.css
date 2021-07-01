@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: 'Arialz';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: Arial;
+}
+
+.app {
+  background: #209cee;
+  padding: 30px;
+  height: 100vh;
+}
+
+h1 {
+  
+
+
+}
+.todo-list {
+  background:white;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 200px;
+ 
+}
+
+.todo-row {
+  background: white;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+  padding: 3px 10px;
+  font-size: 25px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-row:hover {
+  cursor: pointer;
+  opacity: 0.7;
+
+}
+
+.input{
+  background-color: aqua;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow:none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 25px;
+  
+}
+.input:hover {
+  background-color: lightcyan;
+}
+
+.todo-row:nth-child(4n + 1) {
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
+}
+
+.todo-row:nth-child(4n + 2) {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 12, 241, 1) 0%,
+    rgba(250, 0, 135, 1) 100%
+  );
+}
+
+.todo-row:nth-child(4n + 3) {
+  background: linear-gradient(
+    90deg,
+    rgb(255, 165, 0) 0%,
+    rgb(60,179,113) 100%
+  );
+}
+
+.todo-row:nth-child(4n + 4) {
+  background: linear-gradient(
+    90deg,
+    rgb(0,0, 255) 0%,
+    rgb(42, 246, 71)100%
+  );
+}
