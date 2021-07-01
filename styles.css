@@ -63,11 +63,5 @@ h1 {
   background-color: lightcyan;
 }
 
-.todo-row:nth-child(4n + 1) {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 0, 0, 0) 0%,
-    rgba(255, 0, 0, 0) 100%
-  );
-}
+
 
