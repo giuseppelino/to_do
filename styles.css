@@ -17,8 +17,6 @@ code {
 }
 
 h1 {
-  
-
 
 }
 .todo-list {
@@ -48,7 +46,7 @@ h1 {
 }
 
 .input{
-  background-color: aqua;
+  background-color: red;
   width: 100%;
   box-sizing: border-box;
   border: 0;
